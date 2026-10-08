@@ -72,7 +72,7 @@
   --message-surface: oklch(1 0 0);
   --table-edge: oklch(0.67 0.112 65);
   --table-browser-theme: #bd813f;
-  --table-texture: url("/game-assets/wood.png");
+  --table-texture: url("/__l5e/assets-v1/8c3bcdc7-52d8-4c18-af44-f52849c53665/wood.png");
   --table-top-extension: 0px;
   --message-bottom-space: clamp(24px, 8.6vw, 44px);
   --shop-surface: oklch(0.971 0.017 12);
@@ -385,11 +385,3 @@ html[data-game-screen="opening"], html[data-game-screen="opening"] body { backgr
 .chat-area, .chat-area.has-music { flex: 1 1 0; min-height: 0; display: flex; flex-direction: column; overflow: hidden; }
 .chat-messages { flex: 1; min-height: 0; overflow-y: auto; scrollbar-width: none; }
 .chat-messages::-webkit-scrollbar { display: none; }
-
-/* Keep YouTube's native play target available when iOS blocks autoplay. */
-.chat-area.has-music { overflow-y: auto; }
-.has-music .chat-messages { flex: none; max-height: 160px; }
-.chat-music-player { position: relative; top: auto; right: auto; align-self: flex-end; flex: none; grid-template-columns: 56px minmax(200px, 1fr); width: min(100%, 320px); margin-top: 8px; }
-.chat-music-host, .chat-music-host iframe { height: 200px; min-width: 200px; }
-.chat-music-actions { display: flex; margin-left: 0; justify-content: flex-end; height: 32px; }
-.chat-music-actions .reference-button { width: 32px; height: 28px; }
