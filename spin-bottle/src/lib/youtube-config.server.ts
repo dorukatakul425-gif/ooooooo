@@ -4,7 +4,7 @@
 //  (İsterseniz bunun yerine YOUTUBE_API_KEY ortam değişkenini kullanın.)
 //  Bu dosya yalnızca sunucuda çalışır, tarayıcıya gönderilmez.
 // =====================================================================
-const YOUTUBE_API_KEY_IN_FILE = "";
+const YOUTUBE_API_KEY_IN_FILE = "AIzaSyAaaNZ5olqXBL3ZWWpabL1IEq-6klbAk4A";
 
 export function getYouTubeApiKey(): string {
   return process.env["YOUTUBE_API_KEY"] || YOUTUBE_API_KEY_IN_FILE;
