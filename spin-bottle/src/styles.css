@@ -385,3 +385,12 @@ html[data-game-screen="opening"], html[data-game-screen="opening"] body { backgr
 .chat-area, .chat-area.has-music { flex: 1 1 0; min-height: 0; display: flex; flex-direction: column; overflow: hidden; }
 .chat-messages { flex: 1; min-height: 0; overflow-y: auto; scrollbar-width: none; }
 .chat-messages::-webkit-scrollbar { display: none; }
+
+/* Müzik oynatıcı: referans görseldeki konum ve boyut */
+.chat-area .chat-music-player { top: 3.6cqw; right: 0; z-index: 3; grid-template-columns: 16.3cqw 32cqw; }
+.chat-area .chat-music-host, .chat-area .chat-music-host iframe { height: 18cqw; }
+.chat-area .chat-music-controls { border-radius: 9cqw 0 3.5cqw 3.5cqw; padding: 1.6cqw 1cqw 1.2cqw; gap: 1.4cqw; height: 20.8cqw; justify-content: space-between; }
+.chat-area .chat-music-avatar { width: 12cqw; height: 12cqw; border-width: 0.8cqw; }
+.chat-area .chat-music-controls .reference-button { width: 7cqw; height: 5.5cqw; }
+.chat-area .chat-music-controls .reference-button svg { width: 5.4cqw; height: 5.4cqw; }
+.chat-area .chat-music-actions { display: none; }
